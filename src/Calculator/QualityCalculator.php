@@ -33,7 +33,7 @@ class QualityCalculator
         }
     }
 
-    private function addCalculator(QualityCalculatorInterface $calculator): void
+    public function addCalculator(QualityCalculatorInterface $calculator): void
     {
         if (in_array($calculator::class, $this->collection)) {
             return; // normally we would throw an exception.
