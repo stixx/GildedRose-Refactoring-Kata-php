@@ -1,6 +1,6 @@
 # GildedRose Kata - PHP Version
 
-See the [top level readme](../README.md) for general information about this exercise. This is the PHP version of the
+See the [top level readme](https://github.com/emilybache/GildedRose-Refactoring-Kata/blob/main/README.md) for general information about this exercise. This is the PHP version of the
 GildedRose Kata.
 
 ## Installation
@@ -94,7 +94,7 @@ To check code, but not fix errors:
 
 ```shell script
 composer check-cs
-``` 
+```
 
 On Windows a batch file has been created, like an alias on Linux/Mac (e.g. `alias cc="composer check-cs"`), the same
 PHPUnit `composer check-cs` can be run:
