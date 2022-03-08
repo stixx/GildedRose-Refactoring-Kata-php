@@ -33,6 +33,13 @@ cd ./GildedRose-Refactoring-Kata/php
 composer install
 ```
 
+## Thoughts
+Other ways to implement this kata:
+- Create specific Product Types
+- Construct Product Types by a factory
+- Refactor Calculators to move logic to product types and states
+- Increase unit tests and write tests for the Calculators
+
 ## Dependencies
 
 The project uses composer to install:
